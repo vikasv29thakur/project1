@@ -1,0 +1,28 @@
+  body {
+   .container { 
+      text-align: center; 
+  }
+  
+  .game-button {
+    width: 100px; 
+    height: 100px; 
+    display: inline-block;     
+    margin: 10px;
+    border-radius: 15px; 
+    opacity: 0.8; 
+    cursor: pointer; 
+    border: 2px solid #333;
+    transition: opacity 0.2s;
+  }
+  
+  .game-button.active {
+       opacity: 1;
+       box-shadow: 0 0 20px #fff; 
+  }
+  
+  #start-btn { 
+      margin-top: 20px; 
+      padding: 10px 20px; 
+      font-size: 16px; 
+  }
+}
